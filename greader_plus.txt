@@ -1,0 +1,53 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix("http://www.google.com/reader/view/"),url-prefix("https://www.google.com/reader/view/"){
+
+html , body {height:100% !important;}
+
+#ogspacer { background:#e1ecfe;}
+#entries { color: #222!important;}
+#newbie-promo { display:none!important;}
+#tips { background-color: #F1F1F1!important;}
+
+h2, p, strong, #overview, .entry:hover, .item-body { color: #222!important;}
+#main a strong, #main a, #main a:visited, #main .link { color: #222222!important;}
+#search-input { background:#f3f3f3; } 
+#search-submit { font-weight: bold!important; color: #369!important;}
+#loading-area { color:#000!important;}
+#entries-status, .sub-tree-header { color: #444!important;}
+#settings, .viewer-links { color: #222!important;}
+#footer { color: #333!important;} 
+td.left-column, td.right-column { color: #333!important;} 
+#trends-item-count-list { color: #333!important;}
+
+#nav, #lhn-add-subscription-section, #lhn-selectors, #lhn-friends, #lhn-subscriptions, .scroll-tree li { background-color: #FFFFFF!important;}
+#lhn-selectors .selected { background-color: #FFFFFF!important; }
+#lhn-selectors .selected:hover { background-color: #D1D1D1!important; }
+.lhn-section .selected a, .lhn-section .selected a .text, .lhn-section .selected .link { color: #DD4B39!important; }
+.scroll-tree li a:hover { background-color: inherit!important; }
+.scroll-tree li.folder:hover { background-color: #D1D1D1!important; }
+.scroll-tree li .tree-selected a .name { color: #DD4B39!important; }
+.scroll-tree li .tree-link-selected { background: #FFFFFF!important; }
+.scroll-tree li a .name { color: #666666!important; }
+.scroll-tree li a .name-unread { color: #000000!important; }
+.scroll-tree .tree-item-action-container { background-color: inherit!important; }
+
+#overview .item-snippet { color: #999999!important; }
+
+#chrome-header { background-color: inherit!important; }
+#chrome-view-links { background-color: inherit!important; }
+#chrome-lhn-toggle { display: none!important; }
+
+#chrome-viewer { padding: 5px!important; padding-top: 0!important; }
+#viewer-header, #viewer-footer { background-color: #E8E8E8!important; }
+#chrome-viewer #viewer-header, #chrome-viewer #viewer-container #entries, #chrome-viewer #viewer-footer { border-left: 3px solid #E8E8E8!important; }
+#viewer-container div#home { border-left: 0px!important; border-right: 0px!important; }
+
+#current-entry .entry-container .entry-title a, #current-entry .entry-container a.entry-source-title, #current-entry .entry-container .entry-body a, #current-entry .entry-container a.entry-post-author-name { color: #000000!important; }
+.read .entry-container .entry-title a, .read .entry-container a.entry-source-title, .read .entry-container .entry-body a, .read .entry-container a.entry-post-author-name { color: #888888!important; }
+#entries.list .entry .entry-actions { background-color: #F9F9F9!important; }
+#entries.list .read .collapsed { background-color: #F1F1F1!important; }
+#entries.list #current-entry .collapsed { border: 2px solid #DD4B39!important; }
+#entries.list #current-entry.expanded .collapsed { border-bottom-color: #FFFFFF!important; border-width: 2px 0!important; }
+#entries.list #current-entry.expanded, #entries.list #current-entry.expanded .entry-actions { border-color: #DD4B39!important; }
+
+}

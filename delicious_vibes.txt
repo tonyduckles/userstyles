@@ -1,0 +1,205 @@
+/* 
+skin name : "delicious vibes" (del.icio.us with netvibes look) version 0.2 
+author: oron mizrachi (blog isn't up yet - so mail_me@nana.co.il)
+website: http://netcraft.co.il/Website/en/
+the why: readability! del.icio.us is a great service but i can't seem to scan as fast as I'm use to. that's a problem for me. plus, it was a cool experiment with more advanced css rules.
+the how: i decided i work around it by bringing the "netvibes" experience into del.icio.us with only css
+todos: homepage redesign and improvements, also a greasemonkey version.
+please send detailed reports concerning display bugs.
+all rights reserved - netvibes.com and del.icio.us. 
+*/
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix('http://del.icio.us/') {
+
+HTML {
+background:url("http://www.netvibes.com/themes/classic/img/bg.gif") !important ;
+}
+BODY {
+background:url("http://www.netvibes.com/themes/classic/img/bg.gif") !important ;
+}
+#header {background:url("http://www.netvibes.com/themes/classic/img/top.jpg") no-repeat top !important;
+padding: 20px 20px 25px !important;
+}
+#header-mini {
+background:url("http://www.netvibes.com/themes/classic/img/top.jpg") no-repeat top !important;
+padding: 10px 20px 10px !important;
+}
+#header-mini H1 {
+color: #1C60B7;
+}
+#header-l {
+background-image: url("http://www40.brinkster.com/oronm/oronm.gif") !important;
+padding-left: 42px !important; 
+}
+#infobar { 
+background: none !important;
+border: none !important;
+margin: 0 !important;
+border: 1px solid #FFF !important;
+border-right: 1px solid #AAA !important;
+border-bottom: 1px solid #ccc !important;
+background: #f4f4f4 !important;
+color: #6A6A6A !important;
+text-decoration: none !important;
+}
+#page-desc {
+color: #00368F !important;
+
+}
+#page-desc STRONG {
+color:#990000 !important;
+}
+
+#main {
+margin: 0 !important;
+padding: 16px 16px 0 16px !important;
+background:url("http://www.netvibes.com/themes/classic/img/bg.gif") !important ;
+
+
+}
+#main DIV SPAN[style^="font-size"] {
+display:block !important;
+background: #EFF5FF !important;
+padding-left: 20px;
+}
+
+#main H2 {
+display: block !important;
+background: #EFF5FF url("http://static.netvibes.com/img/showMod.gif") no-repeat left center !important;
+height: 1.2em !important;
+min-height: 20px !important;
+color: #00368F !important;
+font-weight: bold !important;
+padding: 5px 0 5px 16px !important;
+margin:0px !important;
+font-size: 14px !important;
+line-height: 20px !important;
+}
+
+P.smaller STRONG A {
+color: #00368F !important;
+
+}
+DIV[style^="padding"], DIV#main > .posts   {
+background: #FFF !important;
+border: 4px solid #EEE !important;
+margin: 0 0 20px !important;
+-moz-border-bottom-colors: #EEE #EEE #EEE #79A7E2 !important;
+-moz-border-top-colors:    #EEE #EEE #EEE #79A7E2 !important;
+-moz-border-left-colors:   #EEE #EEE #EEE #79A7E2 !important;
+-moz-border-right-colors:  #EEE #EEE #EEE #79A7E2 !important;
+}
+DIV#main > .posts, DIV[style^="padding"],#main H2, #main DIV SPAN[style^="font-size"]   {
+width: 55%
+}
+#main H2, #main DIV SPAN[style^="font-size"]  {
+padding-left: 16px !important;
+}
+.posts {
+padding: 10px !important;
+}
+.pager > DIV * {
+padding: 0 !important;
+}
+.posts LI {
+background:none !important;
+}
+
+#main .posts H4 A {
+border-bottom: 1px solid #DDDDDD !important;
+color: #333333 !important;
+font-size: 14px !important;
+
+padding: 1px 0 !important;
+
+}
+#main .posts H4 A:visited{
+color: #777777!important;
+}
+H4 A:hover {
+text-decoration:none !important;
+background: #FFFFE0 !important;
+		color: #F60 !important;
+		border-bottom: 1px solid #DCDC87 !important;
+}
+.meta {
+margin-top: 5px !important;
+}
+.posts A[href^="/"] {
+font: bold 11px verdana !important;
+color: #000; 
+}
+.posts A.tag, A[href^="/tag"] {
+color: #FF6600 !important;
+font-weight: bold !important;
+}
+.postui .bundle .tag:hover, #suggest .tag:hover  {
+color: #FFF !important;
+}
+.meta A.pop {
+background: #E5EEFF !important ;
+padding: 2px !important;
+color: #3366CC !important;
+}
+#main DIV[style="margin-top: 2em;"] {
+display:none !important;
+}
+#footer-inner {
+text-align: center !important;
+color: #6A6A6A !important;
+margin-top: 10px !important;
+}
+#footer-inner A, #items-per-page A  {
+color: #AAAAAA !important;
+}
+#footer-inner A:hover, #items-per-page A:hover {
+color: #3366CC !important;
+}
+#footer-inner #footer-hr {display:none !important;}
+#footer ul {
+background-color: #FFFFFF !important;
+display: inline !important;
+margin: 0 auto !important;
+
+}
+#footer li {
+border: 2px solid #EBEBEB !important;
+padding: 4px;
+border-left: 0 !important;
+background: #FFF !important;
+
+}
+
+#footer li.first {
+border-left: 2px solid #EBEBEB !important;
+padding-left: 3px !important; 
+
+}
+#footer li:last-child {
+padding-right: 80px !important;;
+background: #fff url(http://diamonddestiny.com/MasterTemplates/DiamondDestiny/Theme/Images/common/netcraft.gif) no-repeat right center !important;
+}
+
+#sidebar, #related-sidebar {
+border: none !important;
+margin: 58px 20px 0 0 !important;
+}
+
+.sidebar-inner {
+background: #FFF !important;
+border: 4px solid #EEE !important;
+-moz-border-bottom-colors: #EEE #EEE #EEE #79A7E2 !important;
+-moz-border-top-colors:    #EEE #EEE #EEE #79A7E2 !important;
+-moz-border-left-colors:   #EEE #EEE #EEE #79A7E2 !important;
+-moz-border-right-colors:  #EEE #EEE #EEE #79A7E2 !important;
+}
+.list li li span, .list .option span {
+color: #990000 !important;
+font-weight: bold !important; 
+}
+A:link, #header A:link, #header A:visited {
+color: #1C60B7 !important;
+}
+}

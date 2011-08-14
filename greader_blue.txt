@@ -1,0 +1,38 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix("http://www.google.com/reader/view/"),url-prefix("https://www.google.com/reader/view/"){
+
+html, body {height:100% !important;}
+
+#ogspacer { background:#e1ecfe;}
+#entries { color: #222!important;}
+
+h2, p, strong, #overview, .entry:hover, .item-body { color: #222!important;}
+a strong { color: #0000CC!important;}
+#search-input { background:#f3f3f3; } 
+#search-submit { font-weight: bold!important; color: #369!important;}
+#loading-area { color:#000!important;}
+#entries-status, .sub-tree-header { color: #444!important;}
+#settings, .viewer-links { color: #222!important;}
+#footer { color: #333!important;} 
+td.left-column, td.right-column { color: #333!important;} 
+#trends-item-count-list { color: #333!important;}
+
+#nav, #lhn-add-subscription-section, #lhn-selectors, #lhn-friends, #lhn-subscriptions, .scroll-tree li { background-color: #E1ECFE!important;}
+.scroll-tree li a:hover { background-color: inherit!important; }
+.scroll-tree li .tree-link-selected:hover { background-color: #C2CFF1!important; }
+.scroll-tree li a .name { color: #6666CC!important; }
+.scroll-tree li a .name-unread { color: #0000CC!important; }
+.scroll-tree .tree-item-action-container { background-color: inherit!important; }
+
+#chrome-header { background-color: inherit!important; }
+#chrome-view-links { background-color: inherit!important; }
+#chrome-lhn-toggle { display: none!important; }
+
+#chrome-viewer { padding: 5px!important; padding-top: 0!important; }
+#viewer-header, #viewer-footer { background-color: #C3D9FF!important; }
+#chrome-viewer #viewer-header, #chrome-viewer #viewer-container #entries, #chrome-viewer #viewer-footer { border-left: 3px solid #C3D9FF!important; }
+#viewer-container div#home { border-left: 0px!important; border-right: 0px!important; }
+
+#entries.list .read .collapsed { background-color: #E8EEF7!important; }
+
+}
