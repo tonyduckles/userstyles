@@ -6,7 +6,10 @@
 #lhn-add-subscription-section, #sections-header, #viewer-header { height: 40px !important }
 #top-bar { height: 44px !important }
 #search { padding: 7px 0 !important }
+
 div.collapsed { line-height: normal !important }
 div.entry-secondary { height: 16px !important }
+
+#overview .title { font-size: 140% !important }
 
 }
