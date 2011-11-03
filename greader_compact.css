@@ -15,6 +15,7 @@ div.entry-secondary { height: 16px !important }
 #entries.list .entry { border-left: 2px solid #FFF !important; border-right: 2px solid #FFF !important; }
 #entries.list #current-entry { border-left: 2px solid #4D90F0 !important; border-right: 2px solid #4D90F0 !important; }
 #entries.list #current-entry.expanded { border-color: #FFF !important; }
+#entries.list #current-entry.expanded .entry-actions { border-bottom: 2px solid #4D90F0 !important; }
 #entries.list #current-entry .collapsed { border-color: #4D90F0 !important; }
 #entries.list .read .collapsed { background: #F5F5F5 !important; border-color: #F5F5F5 !important; }
 
