@@ -12,4 +12,7 @@ div.entry-secondary { height: 16px !important }
 
 #overview .title { font-size: 140% !important }
 
+#entries.list .read .collapsed { background: none repeat scroll 0 0 #F5F5F5 !important; border-color: #F5F5F5 !important; }
+#entries.list .read .entry-title, #entries.list .read .entry-main .entry-source-title, #entries.list, .read .entry-date { color: #888888 !important; }
+
 }
