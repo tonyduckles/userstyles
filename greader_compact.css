@@ -2,7 +2,7 @@
 @-moz-document url-prefix("http://www.google.com/reader/view/"),url-prefix("https://www.google.com/reader/view/"){
 
 #lhn-recommendations { visibility: hidden !important; height: 0 !important }
-#title-and-status-holder { visibility: hidden !important; height: 0 !important; padding: 0 !important }
+#title-and-status-holder, #chrome-title { visibility: hidden !important; height: 0 !important; padding: 0 !important }
 #lhn-add-subscription-section, #sections-header, #viewer-header { height: 40px !important }
 #top-bar { height: 44px !important }
 #search { padding: 7px 0 !important }
