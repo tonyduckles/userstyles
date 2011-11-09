@@ -18,13 +18,16 @@ div.entry-secondary { height: 16px !important }
 #entries.list #current-entry.expanded .entry-actions { border-bottom: 2px solid #4D90F0 !important; }
 #entries.list #current-entry .collapsed { border-color: #4D90F0 !important; }
 #entries.list .read .collapsed { background: #F5F5F5 !important; border-color: #F5F5F5 !important; }
+#current-entry .entry-container .entry-title a,
+#current-entry .entry-container a.entry-source-title,
+#current-entry .entry-container a.entry-post-author-name { color: #222 !important; }
 
 #entries.list .read .entry-main .entry-title,
 #entries.list .read .entry-main .entry-source-title,
-#entries.list .read .entry-main .entry-date { color: #888 !important; }
+#entries.list .read .entry-date { color: #888 !important; }
 
 #entries.list #current-entry.expanded.read .entry-main .entry-title,
 #entries.list #current-entry.expanded.read .entry-main .entry-source-title,
-#entries.list #current-entry.expanded.read .entry-main .entry-date { color: #666 !important; }
+#entries.list #current-entry.expanded.read .entry-date { color: #666 !important; }
 
 }
