@@ -7,6 +7,10 @@
 #top-bar { height: 44px !important; }
 #search { padding: 7px 0 !important; }
 
+#team-messages, #overview .section-header { visibility: hidden !important; height: 0 !important; }
+#left-section .overview-section { margin-bottom: 0 !important; }
+#sections-header { margin-bottom: 1em !important; }
+
 #overview .title { font-size: 140% !important; }
 
 #entries.list .entry .collapsed { border: 2px solid #FFFFFF !important; background: #FFFFFF !important; }
