@@ -1,13 +1,13 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document url-prefix("http://www.google.com/reader/view/"),url-prefix("https://www.google.com/reader/view/"){
 
-#lhn-recommendations { visibility: hidden !important; height: 0 !important }
-#title-and-status-holder, #chrome-title { visibility: hidden !important; height: 0 !important; padding: 0 !important }
-#lhn-add-subscription-section, #sections-header, #viewer-header { height: 40px !important }
-#top-bar { height: 44px !important }
-#search { padding: 7px 0 !important }
+#lhn-recommendations { visibility: hidden !important; height: 0 !important; }
+#title-and-status-holder, #chrome-title { visibility: hidden !important; height: 0 !important; padding: 0 !important; }
+#lhn-add-subscription-section, #sections-header, #viewer-header { height: 40px !important; }
+#top-bar { height: 44px !important; }
+#search { padding: 7px 0 !important; }
 
-#overview .title { font-size: 140% !important }
+#overview .title { font-size: 140% !important; }
 
 #entries.list .entry .collapsed { border: 2px solid #FFFFFF !important; background: #FFFFFF !important; }
 #entries.list .read .collapsed { border: 2px solid #F5F5F5 !important; background: #F5F5F5 !important; }
