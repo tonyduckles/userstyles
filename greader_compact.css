@@ -14,24 +14,32 @@
 #overview .title { font-size: 140% !important; }
 
 #entries.list .entry .collapsed { border: 2px solid #FFFFFF !important; background: #FFFFFF !important; }
-#entries.list .read .collapsed { border: 2px solid #F5F5F5 !important; background: #F5F5F5 !important; }
+#entries.list .read .collapsed { border: 2px solid #F4F4F4 !important; background: #F4F4F4 !important; }
 #entries.list #current-entry .collapsed { border: 2px solid #4D90F0 !important; }
+#entries.list #current-entry.expanded .entry-container { background: #FFFFFF !important; }
 #entries.list #current-entry.expanded .collapsed { border-color: #FFFFFF !important; border-top: 2px solid #4D90F0 !important; }
 #entries.list #current-entry.expanded .entry-actions { border-bottom: 2px solid #4D90F0 !important; }
 #entries.list #current-entry.expanded .collapsed,
  #entries.list #current-entry.expanded .entry-container,
  #entries.list #current-entry.expanded .entry-actions { border-right: 2px solid #FFF !important; border-left: 2px solid #FFF !important; }
 
+#entries.list .entry .entry-main .entry-title,
+ #entries.list .entry .entry-main .entry-source-title,
+ #entries.list .entry .entry-main .snippet,
+ #entries.list .entry .entry-date { color: #999 !important; }
+
 #current-entry .entry-container .entry-title a,
  #current-entry .entry-container a.entry-source-title,
+ #current-entry .entry-container .snippet,
  #current-entry .entry-container a.entry-post-author-name { color: #222 !important; }
 
 #entries.list .read .entry-main .entry-title,
  #entries.list .read .entry-main .entry-source-title,
- #entries.list .read .entry-date { color: #888 !important; }
+ #entries.list .read .entry-main .snippet,
+ #entries.list .read .entry-date { color: #AAA !important; }
 
 #entries.list #current-entry.expanded.read .entry-main .entry-title,
  #entries.list #current-entry.expanded.read .entry-main .entry-source-title,
- #entries.list #current-entry.expanded.read .entry-date { color: #666 !important; }
+ #entries.list #current-entry.expanded.read .entry-date { color: #6488B9 !important; }
 
 }
