@@ -19,6 +19,7 @@
 #entries.list #current-entry.expanded .entry-container { background: #FFFFFF !important; }
 #entries.list #current-entry.expanded .collapsed { border-color: #FFFFFF !important; border-top: 2px solid #4D90F0 !important; }
 #entries.list #current-entry.expanded .entry-actions { border-bottom: 2px solid #4D90F0 !important; }
+#entries.list #current-entry.expanded .collapsed .entry-secondary-snippet { display: none !important; }
 #entries.list #current-entry.expanded .collapsed,
  #entries.list #current-entry.expanded .entry-container,
  #entries.list #current-entry.expanded .entry-actions { border-right: 2px solid #FFF !important; border-left: 2px solid #FFF !important; }
@@ -28,8 +29,8 @@
  #entries.list .entry .entry-main .snippet,
  #entries.list .entry .entry-date { color: #999 !important; }
 
-#current-entry .entry-container .entry-title a,
- #current-entry .entry-container a.entry-source-title,
+#current-entry .entry-container .entry-title a { color: #1859B4 !important; }
+#current-entry .entry-container a.entry-source-title,
  #current-entry .entry-container .snippet,
  #current-entry .entry-container a.entry-post-author-name { color: #222 !important; }
 
