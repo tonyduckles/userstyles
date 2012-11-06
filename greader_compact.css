@@ -1,18 +1,20 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document url-prefix("http://www.google.com/reader/view/"),url-prefix("https://www.google.com/reader/view/"){
 
+/* header */
 #lhn-recommendations { visibility: hidden !important; height: 0 !important; }
 #title-and-status-holder, #chrome-title { visibility: hidden !important; height: 0 !important; padding: 0 !important; }
 #lhn-add-subscription-section, #sections-header, #viewer-header { height: 40px !important; }
 #top-bar { height: 44px !important; }
 #search { padding: 7px 0 !important; }
 
+/* main */
 #team-messages, #overview .section-header { visibility: hidden !important; height: 0 !important; }
 #left-section .overview-section { margin-bottom: 0 !important; }
 #sections-header { margin-bottom: 1em !important; }
-
 #overview .title { font-size: 140% !important; }
 
+/* entry list */
 #entries.list .entry .collapsed { border: 2px solid #FFFFFF !important; background: #FFFFFF !important; }
 #entries.list .read .collapsed { border: 2px solid #F4F4F4 !important; background: #F4F4F4 !important; }
 #entries.list #current-entry .collapsed { border: 2px solid #4D90F0 !important; }
@@ -29,7 +31,12 @@
  #entries.list .entry .entry-main .snippet,
  #entries.list .entry .entry-date { color: #999 !important; }
 
-#current-entry .entry-container .entry-title a { color: #1859B4 !important; }
+#current-entry .entry-container .entry-title a { color: #385D9F !important; }
+#current-entry .entry-actions span { color:#999 !important; }
+#current-entry .entry-actions span:hover { color:#222 !important; }
+#current-entry .entry-actions span a { color:#999 !important; }
+#current-entry .entry-actions span a:hover { color:#222 !important; }
+
 #current-entry .entry-container a.entry-source-title,
  #current-entry .entry-container .snippet,
  #current-entry .entry-container a.entry-post-author-name { color: #222 !important; }
