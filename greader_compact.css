@@ -50,4 +50,5 @@
  #entries.list #current-entry.expanded.read .entry-main .entry-source-title,
  #entries.list #current-entry.expanded.read .entry-date { color: #6488B9 !important; }
 
+#current-entry .entry-container .entry-body { font-size: 1.1em !important; line-height: 1.4em; }
 }
