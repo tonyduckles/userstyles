@@ -1,0 +1,7 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("cloud.feedly.com") {
+
+.condensed .inlineFrame { padding-left: 40px !important; }
+
+}
